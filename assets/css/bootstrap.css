@@ -63,6 +63,41 @@ body {
   background-color: #fff;
 }
 
+/* Hover Lift Effect */
+.hover-lift {
+  transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+}
+
+/* Icon Box Styling */
+.icon-box {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Theme Background */
+.bg-theme {
+  background-color: var(--color-theme) !important;
+}
+
+/* Badge Theme Outline */
+.badge-theme {
+  background-color: var(--color-theme);
+  color: white;
+}
+
+.badge-theme-outline {
+  border: 1px solid var(--color-theme);
+  color: var(--color-theme);
+  background: transparent;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
